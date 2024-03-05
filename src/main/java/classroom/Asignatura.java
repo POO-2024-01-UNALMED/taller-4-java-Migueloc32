@@ -14,7 +14,7 @@ public class Asignatura {
     }
 
     public Asignatura(int codigoInterno,Tipo tipo) {
-        this("Sin nombre", codigoInterno, 0,tipo);
+        this("Sin nombre", codigoInterno, codigoInterno,tipo);
     }
 
 
@@ -52,4 +52,5 @@ public class Asignatura {
     public void setCodigoInterno(double codigoInterno) {
         this.codigoInterno = (int) codigoInterno;
     }
+
 }
